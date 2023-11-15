@@ -11,6 +11,11 @@ const favoriteSlice = createSlice({
     addFavoriteCar: (state, action) => {
       state.favoritCar.push(action.payload);
     },
+    deleteFavoritCar: (state, action) => {
+      state.favoritCar = state.favoritCar.filter(
+        car => car.id !== action.payload
+      );
+    },
     deleteAllFavoriteCars: state => {
       state.favoritCar = [];
     },
