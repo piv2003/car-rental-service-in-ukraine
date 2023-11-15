@@ -13,3 +13,9 @@ import {
 import { carSlice } from './carSlice';
 import { filterReducer } from './filterSlice';
 import { favoriteReducer } from './favoriteSlice';
+
+const favoritePersistConfig = {
+  key: 'favorite',
+  storage,
+  whitelist: ['favoritCar'],
+};
