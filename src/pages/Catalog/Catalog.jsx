@@ -16,6 +16,24 @@ import { NotFound } from '../../components/NotFound/NotFound';
 import { ScrollToTop } from '../../components/ScrollToTop/ScrollToTop';
 
 const Catalog = () => {
+  const dispatch = useDispatch();
+  const [page, setPage] = useState(1);
+  const amount = useSelector(selectAmountCars);
+  const filteredCars = useSelector(selectFilteredCars);
+  const isLoading = useSelector(selectLoading);
+
+  useEffect(() => {
+    if (page === 1) {
+      dispatch(clearCarsList());
+      dispatch(clearFilter());
+    }
+
+    dispatch(fetchCars({ page, limit: 8 }));
+  }, [dispatch, page]);
+
+  const handleLoadMore = () => {
+    setPage(prevState => prevState + 1);
+  };
   return (
     <>
       <CatalogPage>
