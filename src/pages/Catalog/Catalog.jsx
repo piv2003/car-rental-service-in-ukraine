@@ -38,6 +38,9 @@ const Catalog = () => {
     <>
       <CatalogPage>
         <SearchForm />
+        {filteredCars.length > 0 && <CarsList cars={filteredCars} />}
+        {filteredCars.length === 0 && !isLoading && <NotFound />}
+        {amount < 32 && <Button onClick={handleLoadMore} />}
       </CatalogPage>
       <ScrollToTop />
     </>
