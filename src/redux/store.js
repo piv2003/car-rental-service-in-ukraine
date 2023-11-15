@@ -19,3 +19,19 @@ const favoritePersistConfig = {
   storage,
   whitelist: ['favoritCar'],
 };
+
+export const store = configureStore({
+  reducer: {
+    cars: carSlice.reducer,
+    filter: filterReducer,
+    favorite: persistReducer(favoritePersistConfig, favoriteReducer),
+  },
+  middleware: getDefaultMiddleware =>
+    getDefaultMiddleware({
+      serializableCheck: {
+        ignoredActions: [FLUSH, REHYDRATE, PAUSE, PERSIST, PURGE, REGISTER],
+      },
+    }),
+});
+
+export const persistor = persistStore(store);
