@@ -11,7 +11,7 @@ const Home = () => {
         Ukraine!
       </h2>
       <LinkBoks>
-        <ButtonLink to="/catalog">Go to our Catalog</ButtonLink>
+        <ButtonLink to="/catalog">Go to our Catalog =></ButtonLink>
       </LinkBoks>
     </HomePage>
   );
