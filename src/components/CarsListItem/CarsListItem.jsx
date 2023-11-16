@@ -20,6 +20,18 @@ export const CarsListItem = ({ car }) => {
   const [toggleModal, setToggleModal] = useState(false);
   const dispatch = useDispatch();
   const favoriteCars = useSelector(selectFavoritesCars);
+  const handleClick = () => {
+    setToggleModal(prevState => !prevState);
+  };
+  const handleToogleFavorites = carId => {
+    const persistedCar = favoriteCars.find(({ id }) => carId === id);
+
+    if (!persistedCar) {
+      dispatch(addFavoriteCar(car));
+    } else {
+      dispatch(deleteFavoritCar(carId));
+    }
+  };
   const {
     id,
     year,
