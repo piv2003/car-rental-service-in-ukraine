@@ -1,5 +1,5 @@
 import { ButtonLink, HomePage, Img, LinkBoks } from './Home.styled';
-import background from '../../images/carrental.png';
+import background from '../../assets/carrental.png';
 
 const Home = () => {
   return (

@@ -1,4 +1,4 @@
-import errorImage from '../../images/nothing_found.gif';
+import errorImage from '../../assets/nothing_found.gif';
 import { Container, NotInlist, Nothing } from './NotFound.styled';
 
 export const NotFound = () => {

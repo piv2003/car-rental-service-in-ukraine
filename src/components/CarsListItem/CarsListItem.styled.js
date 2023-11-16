@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { ReactComponent as GoHeart } from '../../images/heart.svg';
+import { ReactComponent as GoHeart } from '../../assets/heart.svg';
 
 export const Item = styled.li`
   position: relative;
