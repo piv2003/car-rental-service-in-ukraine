@@ -21,7 +21,7 @@ export const Item = styled.div`
   background-color: white;
 `;
 
-export const ImageThumb = styled.div`
+export const ThumbImage = styled.div`
   height: 268px;
   border-radius: 14px;
   overflow: hidden;

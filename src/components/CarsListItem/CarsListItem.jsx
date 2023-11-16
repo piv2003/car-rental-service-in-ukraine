@@ -5,7 +5,7 @@ import {
   Btn,
   Descr,
   Image,
-  ImageThumb,
+  ThumbImage,
   Item,
   Paragraf,
   Span,
@@ -51,9 +51,9 @@ export const CarsListItem = ({ car }) => {
   return (
     <>
       <Item>
-        <ImageThumb>
+        <ThumbImage>
           <Image src={img} alt={model} />
-        </ImageThumb>
+        </ThumbImage>
         <Paragraf>
           <p>
             {make} <Span> {model}, </Span> {year}
