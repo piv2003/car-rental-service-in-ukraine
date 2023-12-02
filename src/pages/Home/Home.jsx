@@ -1,10 +1,10 @@
-import { ButtonLink, HomePage, Img, LinkBoks } from './Home.styled';
+import { ButtonLink, HomePage, Img, LinkBoks, Title } from './Home.styled';
 import background from '../../assets/carrental.png';
 
 const Home = () => {
   return (
     <HomePage>
-      <h1>Welcome to our car rental website!</h1>
+      <Title>Welcome to our car rental website!</Title>
       <Img src={background} alt="car rental" />
       <h2>
         Here you can take a test drive and make your choice for renting a car in
