@@ -1,28 +1,28 @@
 {
   "files": {
     "main.css": "/car-rental-service-in-ukraine/static/css/main.467c53c3.css",
-    "main.js": "/car-rental-service-in-ukraine/static/js/main.54120d18.js",
+    "main.js": "/car-rental-service-in-ukraine/static/js/main.cfde2af9.js",
     "static/js/988.03090e08.chunk.js": "/car-rental-service-in-ukraine/static/js/988.03090e08.chunk.js",
     "static/js/680.63838d7c.chunk.js": "/car-rental-service-in-ukraine/static/js/680.63838d7c.chunk.js",
     "static/js/786.f03d258f.chunk.js": "/car-rental-service-in-ukraine/static/js/786.f03d258f.chunk.js",
     "static/js/426.0ef6ba9c.chunk.js": "/car-rental-service-in-ukraine/static/js/426.0ef6ba9c.chunk.js",
     "static/js/915.395fbc10.chunk.js": "/car-rental-service-in-ukraine/static/js/915.395fbc10.chunk.js",
-    "static/js/147.15fa712e.chunk.js": "/car-rental-service-in-ukraine/static/js/147.15fa712e.chunk.js",
+    "static/js/147.e0650dcc.chunk.js": "/car-rental-service-in-ukraine/static/js/147.e0650dcc.chunk.js",
     "static/media/nothing_found.gif": "/car-rental-service-in-ukraine/static/media/nothing_found.c1ee64f40354bb486396.gif",
     "static/media/carrental.png": "/car-rental-service-in-ukraine/static/media/carrental.b0c9ae0fa234983d868d.png",
     "index.html": "/car-rental-service-in-ukraine/index.html",
     "static/media/heart.svg": "/car-rental-service-in-ukraine/static/media/heart.bb77324c5ab750c4c07b5e7ed081203e.svg",
     "main.467c53c3.css.map": "/car-rental-service-in-ukraine/static/css/main.467c53c3.css.map",
-    "main.54120d18.js.map": "/car-rental-service-in-ukraine/static/js/main.54120d18.js.map",
+    "main.cfde2af9.js.map": "/car-rental-service-in-ukraine/static/js/main.cfde2af9.js.map",
     "988.03090e08.chunk.js.map": "/car-rental-service-in-ukraine/static/js/988.03090e08.chunk.js.map",
     "680.63838d7c.chunk.js.map": "/car-rental-service-in-ukraine/static/js/680.63838d7c.chunk.js.map",
     "786.f03d258f.chunk.js.map": "/car-rental-service-in-ukraine/static/js/786.f03d258f.chunk.js.map",
     "426.0ef6ba9c.chunk.js.map": "/car-rental-service-in-ukraine/static/js/426.0ef6ba9c.chunk.js.map",
     "915.395fbc10.chunk.js.map": "/car-rental-service-in-ukraine/static/js/915.395fbc10.chunk.js.map",
-    "147.15fa712e.chunk.js.map": "/car-rental-service-in-ukraine/static/js/147.15fa712e.chunk.js.map"
+    "147.e0650dcc.chunk.js.map": "/car-rental-service-in-ukraine/static/js/147.e0650dcc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.467c53c3.css",
-    "static/js/main.54120d18.js"
+    "static/js/main.cfde2af9.js"
   ]
 }
