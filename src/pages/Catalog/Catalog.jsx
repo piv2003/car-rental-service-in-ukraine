@@ -13,7 +13,7 @@ import { CarsList } from '../../components/CarsList/CarsList';
 import { SearchForm } from '../../components/SearchForm/SearchForm';
 import { Button } from '../../components/Button/Button';
 import { NotFound } from '../../components/NotFound/NotFound';
-import { ScrollToTop } from '../../components/ScrollToTop/ScrollToTop';
+import ScrollToTopButton from '../../components/ScrollToTopButton/ScrollToTopButton';
 
 const Catalog = () => {
   const dispatch = useDispatch();
@@ -42,7 +42,7 @@ const Catalog = () => {
         {filteredCars.length === 0 && !isLoading && <NotFound />}
         {amount < 32 && <Button onClick={handleLoadMore} />}
       </CatalogPage>
-      <ScrollToTop />
+      <ScrollToTopButton />
     </>
   );
 };

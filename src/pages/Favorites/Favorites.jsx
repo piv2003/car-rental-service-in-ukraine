@@ -4,7 +4,7 @@ import { deleteAllFavoriteCars } from '../../redux/favoriteSlice';
 import { DeleteBtn, LinkCatalog } from './Favorites.styled';
 import { CarsList } from '../../components/CarsList/CarsList';
 import { NotFound } from '../../components/NotFound/NotFound';
-import { ScrollToTop } from '../../components/ScrollToTop/ScrollToTop';
+import ScrollToTopButton from '../../components/ScrollToTopButton/ScrollToTopButton';
 
 const Favorites = () => {
   const dispatch = useDispatch();
@@ -31,7 +31,7 @@ const Favorites = () => {
           </>
         )}
       </div>
-      <ScrollToTop />
+      <ScrollToTopButton />
     </>
   );
 };
