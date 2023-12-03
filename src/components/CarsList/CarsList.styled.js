@@ -12,14 +12,17 @@ export const List = styled.ul`
   list-style: none;
   margin-left: auto;
   margin-right: auto;
+  background-color: white;
 
+  //box-shadow: 7px 7px 7px #0000004d, -23px 0 20px -23px #000c,
+  //     23px 0 20px -23px #000c, inset 0 0 40px #0000001a;
   /* overflow: hidden;
   border: solid 1px #ac04ac;
   border-radius: 25px; */
-  /* box-shadow: 7px 7px 7px #0000004d, -23px 0 20px -23px #000c,
-  23px 0 20px -23px #000c, inset 0 0 40px #0000001a;
+  box-shadow: 7px 7px 7px #0000004d, -23px 0 20px -23px #000c,
+    23px 0 20px -23px #000c, inset 0 0 40px #0000001a;
   transition: transform 550ms cubic-bezier(0.4, 0, 0.2, 1),
-  box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);   */
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 `;
 
 // export const List = styled.ul`

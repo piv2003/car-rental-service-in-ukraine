@@ -16,7 +16,6 @@ export const Form = styled.form`
   align-items: center;
   padding: 10px;
   margin: 0;
-  background-color: #f5f5f5;
   gap: 20px;
 `;
 
