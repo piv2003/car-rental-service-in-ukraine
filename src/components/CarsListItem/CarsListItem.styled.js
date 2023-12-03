@@ -97,7 +97,7 @@ export const StyledHeartIcon = styled(GoHeart)`
   width: 18px;
   height: 18px;
   fill: ${({ $isInFavorites }) =>
-    $isInFavorites ? 'rgba(52, 112, 255, 1)' : 'transparent'};
+    $isInFavorites ? 'rgba(255, 52, 120, 1)' : 'transparent'};
   stroke: ${({ $isInFavorites }) =>
-    $isInFavorites ? 'rgba(52, 112, 255, 1)' : 'white'};
+    $isInFavorites ? 'rgba(252, 75, 5, 1)' : '#fd0707'};
 `;
