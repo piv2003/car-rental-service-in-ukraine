@@ -5,8 +5,7 @@ export const HeaderContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgb(175 238 255);
-  padding: 20px;
+  background: linear-gradient(to bottom right, rgb(175 238 255), pink);
 `;
 
 export const Navigation = styled.nav`
