@@ -15,6 +15,25 @@ export const HomePage = styled.div`
     rgba(0, 0, 0, 0.12) 0px 2px 5px -1px;
 `;
 
+export const Footer = styled.h2`
+  display: table;
+  margin: 10px auto;
+  font-family: 'Roboto Slab';
+  font-weight: 18;
+  font-size: 30px;
+  background: linear-gradient(
+    330deg,
+    #e05252 0%,
+    #99e052 25%,
+    #52e0e0 50%,
+    #9952e0 75%,
+    #e05252 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 40px;
+`;
+
 export const Title = styled.h1`
   text-align: center;
   -webkit-text-stroke: 2px #fa47c4;
