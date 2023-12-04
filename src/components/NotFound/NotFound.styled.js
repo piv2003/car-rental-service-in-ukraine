@@ -6,8 +6,9 @@ export const Container = styled.div`
 `;
 export const Nothing = styled.img`
   display: block;
-
   margin: 0 auto;
+  box-shadow: 0px 7px 7px 7px rgba(0, 0, 0, 0.4),
+    0px 7px 7px 7px rgba(0, 0, 0, 0.3), 0px 7px 10px 0px rgba(0, 0, 0, 0.3);
 `;
 export const NotInlist = styled.h2`
   display: flex;
