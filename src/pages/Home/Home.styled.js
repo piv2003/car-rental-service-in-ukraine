@@ -1,14 +1,22 @@
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
+import Image from '../../assets/avto.png';
 
 export const HomePage = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-image: url(${Image});
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
   margin: 0;
   padding: 0;
   height: 100vh;
-  width: 100%;
+  width: 100 %;
+  height: 100vh;
+  overflow: hidden;
   box-shadow: rgb(0 0 0) 0px 4px 6px 0px, rgba(0, 0, 0, 0.14) 0px 3px 7px 0px,
     rgba(0, 0, 0, 0.12) 0px 2px 5px -1px;
 `;
@@ -19,14 +27,16 @@ export const Footer = styled.h2`
   font-family: 'Roboto Slab';
   font-weight: 18;
   font-size: 30px;
-  background: linear-gradient(
+  text-shadow: 2px 2px 1px #9ccbf8;
+  /* background: linear-gradient(
     330deg,
     #e05252 0%,
     #99e052 25%,
     #52e0e0 50%,
     #9952e0 75%,
     #e05252 100%
-  );
+  ); */
+
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   line-height: 40px;
@@ -58,7 +68,7 @@ export const Title = styled.h1`
   }
   color: rgb(10, 10, 10);
   text-shadow: 0 -1px rgba(0, 0, 0, 0.1);
-  background: radial-gradient(white, #ffa9a1);
+  background: radial-gradient(rgba(243, 231, 231, 0.01), rgba(0, 0, 0, 0.01));
   -webkit-animation: pulsate 2.2s linear infinite;
   animation: pulsate 2.2s linear infinite;
 `;

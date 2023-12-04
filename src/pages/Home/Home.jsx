@@ -1,12 +1,5 @@
-import {
-  ButtonLink,
-  HomePage,
-  Img,
-  LinkBoks,
-  Title,
-  Footer,
-} from './Home.styled';
-import background from '../../assets/carrental.png';
+import { HomePage, Img, LinkBoks, Title, Footer } from './Home.styled';
+import background from '../../assets/carrental-80.png';
 
 const Home = () => {
   return (
@@ -17,9 +10,7 @@ const Home = () => {
         Here you can take a test drive and make your choice for renting a car in
         Ukraine!
       </Footer>
-      <LinkBoks>
-        <ButtonLink to="/catalog">Go to our Catalog =></ButtonLink>
-      </LinkBoks>
+      <LinkBoks></LinkBoks>
     </HomePage>
   );
 };
