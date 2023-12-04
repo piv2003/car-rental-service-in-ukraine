@@ -11,13 +11,13 @@ import { App } from './components/App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <Provider store={store}>
-      {/* <PersistGate loading={null} persistor={persistor}> */}
-      <BrowserRouter basename="/car-rental-service-in-Ukraine">
-        <App />
-      </BrowserRouter>
-      {/* </PersistGate> */}
-    </Provider>
-  </React.StrictMode>
+  // <React.StrictMode>
+  <Provider store={store}>
+    {/* <PersistGate loading={null} persistor={persistor}> */}
+    <BrowserRouter basename="/car-rental-service-in-Ukraine">
+      <App />
+    </BrowserRouter>
+    {/* </PersistGate> */}
+  </Provider>
+  // </React.StrictMode>
 );
