@@ -21,7 +21,7 @@ const Favorites = () => {
           <>
             <CarsList cars={favoriteCars} />
             <DeleteBtn onClick={handleDeleteAll}>
-              delite all favorites cars
+              delete all favorite cars
             </DeleteBtn>
           </>
         ) : (
