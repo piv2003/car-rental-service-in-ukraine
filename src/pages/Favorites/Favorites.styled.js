@@ -6,7 +6,7 @@ export const DeleteBtn = styled.button`
   margin: 20px auto;
   padding: 5px 10px;
   border-radius: 8px;
-  background-color: #3f90b5;
+  background-color: #6c92fc;
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
   text-align: center;
   color: #0a0a0a;
@@ -21,12 +21,14 @@ export const DeleteBtn = styled.button`
     0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
   &:hover,
   &:focus {
-    background-color: #4b2df5;   
-     font-weight: 500;
+    background-color: #4b2df5;
+    font-weight: 500;
     box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.2),
       0px 1px 5px 0px rgba(0, 0, 0, 0.14), 0px 2px 5px -1px rgba(0, 0, 0, 0.12);
-  }
     color: #d40303;
+  }
+  &:active {
+    scale: 0.95;
   }
 `;
 
