@@ -5,7 +5,7 @@ export const NotFound = () => {
   return (
     <Container>
       <Nothing src={errorImage} alt="Nothing in List" />
-      <NotInlist>Nothing in List !</NotInlist>
+      <NotInlist>There's nothing on the List !</NotInlist>
     </Container>
   );
 };

@@ -1,7 +1,7 @@
 import { useDispatch, useSelector } from 'react-redux';
 import { selectFavoritesCars } from '../../redux/selectors';
 import { deleteAllFavoriteCars } from '../../redux/favoriteSlice';
-import { DeleteBtn, LinkCatalog } from './Favorites.styled';
+import { DeleteBtn, LinkCatalog, FavoriteCanvas } from './Favorites.styled';
 import { CarsList } from '../../components/CarsList/CarsList';
 import { NotFound } from '../../components/NotFound/NotFound';
 import ScrollToTopButton from '../../components/ScrollToTopButton/ScrollToTopButton';
@@ -16,7 +16,7 @@ const Favorites = () => {
 
   return (
     <>
-      <div>
+      <FavoriteCanvas>
         {favoriteCars.length > 0 ? (
           <>
             <CarsList cars={favoriteCars} />
@@ -30,7 +30,7 @@ const Favorites = () => {
             <LinkCatalog to="/catalog">Add some favorite cars</LinkCatalog>
           </>
         )}
-      </div>
+      </FavoriteCanvas>
       <ScrollToTopButton />
     </>
   );

@@ -1,5 +1,25 @@
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
+import Image from '../../assets/avto2.jpg';
+
+export const FavoriteCanvas = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(${Image});
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100 %;
+  height: 100vh;
+  overflow: hidden;
+  box-shadow: rgb(0 0 0) 0px 4px 6px 0px, rgba(0, 0, 0, 0.14) 0px 3px 7px 0px,
+    rgba(0, 0, 0, 0.12) 0px 2px 5px -1px;
+`;
 
 export const DeleteBtn = styled.button`
   display: block;
