@@ -27,7 +27,7 @@ const Favorites = () => {
         ) : (
           <>
             <NotFound />
-            <LinkCatalog to="/catalog">Add some favorites cars</LinkCatalog>
+            <LinkCatalog to="/catalog">Add some favorite cars</LinkCatalog>
           </>
         )}
       </div>

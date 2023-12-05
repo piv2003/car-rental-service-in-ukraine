@@ -6,25 +6,27 @@ export const DeleteBtn = styled.button`
   margin: 20px auto;
   padding: 5px 10px;
   border-radius: 8px;
-  background-color: #3f51b5;
+  background-color: #3f90b5;
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
   text-align: center;
-  color: #fff;
-  border: 0;
-  text-decoration: none;
+  color: #0a0a0a;
   cursor: pointer;
   font-family: inherit;
   font-size: 18px;
   line-height: 24px;
   font-style: normal;
-  font-weight: 500;
   max-width: 360px;
-  box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2),
+  font-weight: 700;
+  box-shadow: 2px 7px 5px -2px rgba(0, 0, 0, 0.3),
     0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
   &:hover,
   &:focus {
-    background-color: #303f9f;
-    color: red;
+    background-color: #4b2df5;   
+     font-weight: 500;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.2),
+      0px 1px 5px 0px rgba(0, 0, 0, 0.14), 0px 2px 5px -1px rgba(0, 0, 0, 0.12);
+  }
+    color: #d40303;
   }
 `;
 
@@ -39,9 +41,10 @@ export const LinkCatalog = styled(Link)`
   align-items: center;
   flex-shrink: 0;
   font-size: 14px;
-  font-weight: 600;
   line-height: 20px;
-  border: none;
+  font-weight: 700;
+  box-shadow: 2px 7px 5px -2px rgba(0, 0, 0, 0.3),
+    0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
   border-radius: 12px;
   background-color: #3470ff;
   color: #fff;
@@ -50,6 +53,8 @@ export const LinkCatalog = styled(Link)`
 
   &:hover {
     background-color: #0b44cd;
+    color: #f71e71;
+    font-weight: 500;
     box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.2),
       0px 1px 5px 0px rgba(0, 0, 0, 0.14), 0px 2px 5px -1px rgba(0, 0, 0, 0.12);
   }
