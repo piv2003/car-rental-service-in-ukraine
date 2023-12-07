@@ -17,7 +17,11 @@ export const ScrollButton = styled.div`
   transition: background 0.5s ease, transform 0.5s ease;
 
   &:hover {
-    background: radial-gradient(circle, #ffa9a1, #af0292);
+    background: radial-gradient(
+      circle,
+      rgba(255, 169, 161, 0.3),
+      rgba(175, 2, 146, 0.3)
+    );
     transform: scale(1.1);
   }
 
