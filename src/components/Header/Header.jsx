@@ -6,13 +6,16 @@ import {
   NavigateLink,
   Navigation,
   PageList,
+  Rollin,
 } from './Header.styled';
+import rollinImage from '../../assets/rolLin2.png';
 
 export const Header = () => {
   return (
     <>
       <HeaderContainer>
         <Navigation>
+          <Rollin src={rollinImage} alt="Rollin Xotics" />
           <PageList>
             <NavigateItem>
               <NavigateLink to="/">Home</NavigateLink>

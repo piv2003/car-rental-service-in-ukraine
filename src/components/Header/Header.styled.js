@@ -8,6 +8,15 @@ export const HeaderContainer = styled.div`
   background: linear-gradient(to bottom right, rgb(175 238 255), pink);
 `;
 
+export const Rollin = styled.img`
+  display: flex;
+  justify-content: left;
+  margin: 0 auto;
+  height: 70px;
+  box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.4),
+    0px 3px 3px 3px rgba(0, 0, 0, 0.3), 0px 3px 3px 0px rgba(0, 0, 0, 0.3);
+`;
+
 export const Navigation = styled.nav`
   display: flex;
   align-items: center;

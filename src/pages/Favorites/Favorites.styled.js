@@ -13,7 +13,7 @@ export const FavoriteCanvas = styled.div`
   margin: 0;
   padding: 0;
   height: 100vh;
-  width: 100 %;
+  width: 100%;
   height: 100vh;
   overflow: hidden;
   box-shadow: rgb(0 0 0) 0px 4px 6px 0px, rgba(0, 0, 0, 0.14) 0px 3px 7px 0px,
