@@ -28,14 +28,6 @@ export const Footer = styled.h2`
   font-weight: 18;
   font-size: 30px;
   text-shadow: 2px 2px 1px #9ccbf8;
-  /* background: linear-gradient(
-    330deg,
-    #e05252 0%,
-    #99e052 25%,
-    #52e0e0 50%,
-    #9952e0 75%,
-    #e05252 100%
-  ); */
 
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
