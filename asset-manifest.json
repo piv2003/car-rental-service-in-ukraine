@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/car-rental-service-in-ukraine/static/css/main.467c53c3.css",
-    "main.js": "/car-rental-service-in-ukraine/static/js/main.02ee9e8f.js",
+    "main.js": "/car-rental-service-in-ukraine/static/js/main.fc3c320b.js",
     "static/js/55.b46060e4.chunk.js": "/car-rental-service-in-ukraine/static/js/55.b46060e4.chunk.js",
-    "static/js/680.38a02729.chunk.js": "/car-rental-service-in-ukraine/static/js/680.38a02729.chunk.js",
+    "static/js/626.627a32f3.chunk.js": "/car-rental-service-in-ukraine/static/js/626.627a32f3.chunk.js",
     "static/js/962.a9d93421.chunk.js": "/car-rental-service-in-ukraine/static/js/962.a9d93421.chunk.js",
     "static/js/160.decd6387.chunk.js": "/car-rental-service-in-ukraine/static/js/160.decd6387.chunk.js",
     "static/js/915.395fbc10.chunk.js": "/car-rental-service-in-ukraine/static/js/915.395fbc10.chunk.js",
@@ -16,9 +16,9 @@
     "index.html": "/car-rental-service-in-ukraine/index.html",
     "static/media/heart.svg": "/car-rental-service-in-ukraine/static/media/heart.bb77324c5ab750c4c07b5e7ed081203e.svg",
     "main.467c53c3.css.map": "/car-rental-service-in-ukraine/static/css/main.467c53c3.css.map",
-    "main.02ee9e8f.js.map": "/car-rental-service-in-ukraine/static/js/main.02ee9e8f.js.map",
+    "main.fc3c320b.js.map": "/car-rental-service-in-ukraine/static/js/main.fc3c320b.js.map",
     "55.b46060e4.chunk.js.map": "/car-rental-service-in-ukraine/static/js/55.b46060e4.chunk.js.map",
-    "680.38a02729.chunk.js.map": "/car-rental-service-in-ukraine/static/js/680.38a02729.chunk.js.map",
+    "626.627a32f3.chunk.js.map": "/car-rental-service-in-ukraine/static/js/626.627a32f3.chunk.js.map",
     "962.a9d93421.chunk.js.map": "/car-rental-service-in-ukraine/static/js/962.a9d93421.chunk.js.map",
     "160.decd6387.chunk.js.map": "/car-rental-service-in-ukraine/static/js/160.decd6387.chunk.js.map",
     "915.395fbc10.chunk.js.map": "/car-rental-service-in-ukraine/static/js/915.395fbc10.chunk.js.map",
@@ -26,6 +26,6 @@
   },
   "entrypoints": [
     "static/css/main.467c53c3.css",
-    "static/js/main.02ee9e8f.js"
+    "static/js/main.fc3c320b.js"
   ]
 }
