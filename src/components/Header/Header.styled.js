@@ -11,7 +11,7 @@ export const HeaderContainer = styled.div`
 export const Rollin = styled.img`
   display: flex;
   justify-content: left;
-  margin: 0 auto;
+  margin: 0 30px 0 0;
   height: 70px;
   box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.4),
     0px 3px 3px 3px rgba(0, 0, 0, 0.3), 0px 3px 3px 0px rgba(0, 0, 0, 0.3);
@@ -47,7 +47,7 @@ const clickEffect = keyframes`
 `;
 
 export const NavigateLink = styled(NavLink)`
-  display: inline-flex;
+  display: flex;
   align-items: center;
   justify-content: center;
   padding: 5px;
@@ -59,7 +59,7 @@ export const NavigateLink = styled(NavLink)`
   font-size: 17px;
   text-shadow: 1px 1px #000;
   line-height: normal;
-  margin: 20px;
+  margin: 20px auto;
   border: 2px solid pink;
   border-radius: 6px;
   cursor: pointer;

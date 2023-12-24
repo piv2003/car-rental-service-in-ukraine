@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { ButtonClass } from './Button.styled';
+import { NavigateLink } from '../Header/Header.styled.js';
 import PropTypes from 'prop-types';
 
 export const Button = ({ onClick = null }) => {
@@ -12,14 +12,14 @@ export const Button = ({ onClick = null }) => {
   };
 
   return (
-    <ButtonClass
+    <NavigateLink
       type="button"
       className={Button}
       onClick={handleClick}
       disabled={isLoading}
     >
       {isLoading ? 'Loading...' : 'Load more'}
-    </ButtonClass>
+    </NavigateLink>
   );
 };
 
