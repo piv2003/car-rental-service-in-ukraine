@@ -20,16 +20,6 @@ export const List = styled.ul`
     box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 `;
 
-// export const List = styled.ul`
-//   display: flex;
-//   flex-wrap: wrap;
-//   align-items: center;
-//   justify-content: center;
-//   gap: 15px;
-//   padding: 0 0 20px 0;
-//   margin-top: 10px;
-// `;
-
 // export const List = styled.li`
 //   overflow: hidden;
 //   border: solid 1px #ac04ac;
