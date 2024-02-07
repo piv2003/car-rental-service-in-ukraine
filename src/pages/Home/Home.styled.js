@@ -4,6 +4,7 @@ import Image from '../../assets/avto.png';
 
 export const HomePage = styled.div`
   display: flex;
+  /* position: static; */
   flex-direction: column;
   align-items: center;
   background-image: url(${Image});
