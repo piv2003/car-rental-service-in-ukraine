@@ -4,7 +4,6 @@ import Image from '../../assets/avto.png';
 
 export const HomePage = styled.div`
   display: flex;
-  /* position: static; */
   flex-direction: column;
   align-items: center;
   background-image: url(${Image});
@@ -19,7 +18,7 @@ export const HomePage = styled.div`
   height: 100vh;
   overflow: hidden;
   box-shadow: rgb(0 0 0) 0px 4px 6px 0px, rgba(0, 0, 0, 0.14) 0px 3px 7px 0px,
-    rgba(0, 0, 0, 0.12) 0px 2px 5px -1px;
+    rgba(0, 0, 0, 0.14) 0px 2px 5px -1px;
 `;
 
 export const Footer = styled.h2`
