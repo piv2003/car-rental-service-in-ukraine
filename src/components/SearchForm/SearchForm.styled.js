@@ -38,7 +38,7 @@ export const EnterText = styled.div`
   margin: 0;
 `;
 
-export const LabelMilage1 = styled.input`
+export const LabelMilAge1 = styled.input`
   display: flex;
   width: 160px;
   height: 38px;
@@ -51,7 +51,7 @@ export const LabelMilage1 = styled.input`
   background-color: white;
   align-items: flex-start;
 `;
-export const LabelMilage2 = styled.input`
+export const LabelMilAge2 = styled.input`
   display: flex;
   width: 160px;
   height: 38px;
