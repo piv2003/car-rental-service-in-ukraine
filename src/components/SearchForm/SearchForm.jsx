@@ -4,8 +4,8 @@ import {
   BtnSearch,
   EnterText,
   Form,
-  LabelMilage1,
-  LabelMilage2,
+  LabelMilAge1,
+  LabelMilAge2,
   SubForm,
   Title,
 } from './SearchForm.styled';
@@ -85,10 +85,10 @@ export const SearchForm = () => {
         <Title> Car mileage / km</Title>
         <EnterText>
           <label>
-            <LabelMilage1 type="number" name="mileageFrom" placeholder="From" />
+            <LabelMilAge1 type="number" name="mileageFrom" placeholder="From" />
           </label>
           <label>
-            <LabelMilage2 type="number" name="mileageTo" placeholder="To" />
+            <LabelMilAge2 type="number" name="mileageTo" placeholder="To" />
           </label>
         </EnterText>
       </div>
