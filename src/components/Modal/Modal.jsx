@@ -18,7 +18,7 @@ import {
   MilegEPrice,
   Milege,
   ModalStyled,
-  Paragraf,
+  Paragraph,
   Price,
   PriceCar,
   Rental,
@@ -87,13 +87,13 @@ export const Modal = ({ handleClick, car }) => {
           <ThumbImage>
             <Image src={img} alt={model} />
           </ThumbImage>
-          <Paragraf>
+          <Paragraph>
             <Title>
               {make}
               <Span> {model}, </Span>
               {year}
             </Title>
-          </Paragraf>
+          </Paragraph>
 
           <Descr>
             <Country>

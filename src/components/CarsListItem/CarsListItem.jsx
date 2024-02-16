@@ -7,7 +7,7 @@ import {
   Image,
   ThumbImage,
   Item,
-  Paragraf,
+  Paragraph,
   Span,
   StyledHeart,
   StyledHeartIcon,
@@ -54,12 +54,12 @@ export const CarsListItem = ({ car }) => {
         <ThumbImage>
           <Image src={img} alt={model} />
         </ThumbImage>
-        <Paragraf>
+        <Paragraph>
           <p>
             {make} <Span> {model}, </Span> {year}
           </p>
           <p> {rentalPrice}</p>
-        </Paragraf>
+        </Paragraph>
         <Descr>
           {updateaddress} | {rentalCompany} | {make} | {id} | {type} |{' '}
           {accessories[0]} | {functionalities[0]}

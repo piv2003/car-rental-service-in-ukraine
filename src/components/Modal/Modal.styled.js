@@ -53,7 +53,7 @@ export const Span = styled.span`
   line-height: 24px;
 `;
 
-export const Paragraf = styled.div`
+export const Paragraph = styled.div`
   display: flex;
   justify-content: space-between;
   padding: 0 10px;
